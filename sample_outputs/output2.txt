@@ -1,0 +1,186 @@
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > A. Micheli, G. K. Brennen, and P. Zoller > A. Micheli, G. K. Brennen, and P. Zoller[/HEAD]
+A. Micheli,* G. K. Brennen, and P. Zoller
+Institute for Theoretical Physics, University of Innsbruck,
+and Institute for Quantum Optics and Quantum Information of the Austrian Academy of Science, 6020 Innsbruck, Austria
+(Dated: October 2, 2018)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > I. INTRODUCTION > Introduction[/HEAD]
+There is growing interest to investigate states of matter with topological order, which support excitations in the
+form of anyons, and which underly topological quantum computing. Examples of such systems include lattice
+spin models in two dimensions. Here we show that relevant Hamiltonians can be systematically engineered
+with polar molecules stored in optical lattices, where the spin is represented by a single electron outside a closed
+shell of a heteronuclear molecule in its rotational ground state. Combining microwave excitation with the
+dipole-dipole interactions and spin-rotation couplings allows us to build a complete toolbox for effective two-
+spin interactions with designable range and spatial anisotropy, and with coupling strengths significantly larger
+than relevant decoherence rates. As an illustration we discuss two models: a 2D square lattice with an energy
+gap providing for protected quantum memory, and another on stacked triangular lattices leading to topological
+quantum computing.
+
+Lattice spin models are ubiquitous in condensed matter
+physics where they are used as simplified models to describe
+the characteristic behavior of more complicated interacting
+physical systems. Recently there have been exciting theoret-
+ical discoveries of models with quasi-local spin interactions
+with emergent topological order [1, 2]. In contrast to Landau
+theory where various phases of matter are described by bro-
+ken symmetries, topological ordered states are distinguished
+by homology class and have the property of being robust to
+arbitrary perturbations of the underlying Hamiltonian. These
+states do not exhibit long range order in pairwise operators,
+rather they have long range order in highly nonlocal strings
+of operators. A real world example is the fractional quantum
+Hall effect which gives rise to states with the same symmetry
+but distinguishable by quantum numbers associated with the
+topology of the surface they live on [3].
+
+It is of significant interest to “design” materials with these
+properties, both to observe and study exotic phases, and in
+light of possible applications. Cold atomic and molecular
+gases in optical lattices are prime candidates for this endeavor
+in view of the complete controllability of these systems in
+the laboratory. The idea of realizing bosonic and fermionic
+Hubbard models, and thus also lattice spin models, with cold
+atoms in optical lattices has sparked a remarkable series of
+experiments, and has triggered numerous theoretical studies
+to develop cold atoms as a quantum simulator for strongly
+correlated condensed matter systems (see e.g. [4, 5, 6] and
+references therein). However, coaxing a physical system to
+mimic the required interactions for relevant lattice spin mod-
+els, which must be both anisotropic in space and in the spin de-
+grees of freedom, and given range, is highly nontrivial. Here
+we show that cold gases of polar molecules, as presently de-
+veloped in the laboratory [7], allow us to construct in a natural
+way a complete toolbox for any permutation symmetric two
+spin-1/2 (qubit) interaction. The attractiveness of this idea
+also rests on the fact that dipolar interactions have coupling
+strengths significantly larger than those of the atomic Hubbard
+models, and relevant decoherence rates.
+Our basic building block is a system of two polar molecules
+strongly trapped a given sites of an optical lattice, where the
+spin-1/2 (or qubit) is represented by a single electron out-
+side a closed shell of a heteronuclear molecule in its rotational
+ground state. Heteronuclear molecules have large permanent
+electric dipole moments. This implies that the rotational mo-
+tion of molecules is coupled strongly via the dipole-dipole in-
+teractions, whose signatures are the long range $1/r^3$ character
+and an angular dependence, where the polar molecules attract
+or repel each other depending on the relative orientation of
+their dipole moments. In addition, microwave excitation of
+rotational energy levels allows to effectively tailor the spatial
+dependence of dipole-dipole interactions. Finally, account-
+ing for the spin-rotation splitting of molecular rotational levels
+we can make these dipole-dipole interactions spin-dependent.
+General lattice spin models are readily built from these binary
+interactions.
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > II. ANISOTROPIC SPIN MODELS WITH NOISE RESILIENT GROUND STATES > Anisotropic Spin Models with Noise Resilient Ground States[/HEAD]
+Two highly anisotropic models with spin-1/2 particles
+which we will show how to simulate are illustrated in Figs. 1a
+and 1b respectively. The first takes place on a square 2D lat-
+tice with nearest neighbor interactions
+$$H_{\text{spin}}^{(I)} = \sum_{i=1}^{l-1} \sum_{j=1}^{l-1} J \sigma_{i,j}^z \sigma_{i+1,j}^z + \cos \zeta \sigma_{i,j}^x \sigma_{i,j+1}^x).$$ (1)
+
+Introduced by Duoçot et al. [8] in the context of Josephson
+junction arrays, this model (for $\zeta \neq \pm \pi/2$) admits a 2- fold
+degenerate ground subspace that is immune to local noise up
+to $l$th order and hence is a good candidate for storing a pro-
+tected qubit.
+
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > II. ANISOTROPIC SPIN MODELS WITH NOISE RESILIENT GROUND STATES > Stacked Triangular Lattices Model[/HEAD]
+The second, occurs on a bipartite lattice constructed with
+two 2D triangular lattices, one shifted and stacked on top of
+the other. The interactions are indicated by nearest neighbor
+links along the $\hat{x}$, $\hat{y}$ and $\hat{z}$ directions in real space:
+$$H_{\text{spin}}^{(II)} = J_x \sum_{\text{x-links}} \sigma_i^x \sigma_j^x + J_y \sum_{\text{y-links}} \sigma_i^y \sigma_j^y + J_z \sum_{\text{z-links}} \sigma_i^z \sigma_j^z.$$ (2)
+This model has the same spin dependence and nearest neigh-
+bor graph as the model on a honeycomb lattice introduced by
+Kitaev [9]. He has shown that by tuning the ratio of interac-
+tion strengths $|J_x|/|J_z|$ one can tune the system from a gapped
+phase carrying Abelian anyonic excitations to a gapless phase
+which in the presence of a magnetic field becomes gapped
+with non-Abelian excitations. In the regime $|J_x|/|J_z| < 1$ the
+Hamilonian can be mapped to a model with four body oper-
+ators on a square lattice with ground states that encode topo-
+logically protected quantum memory [10]. One proposal [11]
+describes how to use trapped atoms in spin dependent optical
+lattices to simulate the spin model $H_{\text{spin}}^{(II)}$. There the induced
+spin couplings are obtained via spin dependent collisions in
+second order tunneling processes. Larger coupling strengths
+are desirable. In both spin models (I and II) above, the signs
+of the interactions are irrelevant although we will be able to
+tune the signs if needed.
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > III. SPECTROSCOPY OF POLAR MOLECULES IN OPTICAL LATTICES > Spectroscopy of Polar Molecules in Optical Lattices[/HEAD]
+Our system is comprised of heteronuclear molecules with
+$^2\Sigma_{1/2}$ ground electronic states, corresponding for example to
+alkaline-earth monohalogenides with a single electron outside
+a closed shell. We adopt a model molecule where the ro-
+tational excitations are described by the Hamiltonian $H_m =
+B\mathbf{N}^2 + \gamma \mathbf{N} \cdot \mathbf{S}$ with $\mathbf{N}$ the dimensionless orbital angular mo-
+mentum of the nuclei, and $\mathbf{S}$ the dimensionless electronic spin
+(assumed to be $S = 1/2$ in the following). Here $B$ denotes
+the rotational constant and $\gamma$ is the spin-rotation coupling con-
+stant, where a typical $B$ is a few tens of GHz, and $\gamma$ in the
+hundred MHz regime. The coupled basis of a single molecule
+$i$ corresponding to the eigenbasis of $H_{im}$ is $\{|N_i, S_i, J_i; M_J\rangle\}$
+where $J_i = N_i + S_i$ with eigenvalues $E(N=0,1/2,1/2) =
+0$, $E(1,1/2,1/2) = 2B - \gamma$, and $E(1,1/2,3/2) = 2B + \gamma/2$.
+While we ignore hyperfine interactions in the present work,
+our discussion below is readily extended to include hyperfine
+effects, which offer extensions to spin systems $S > 1/2$.
+
+The Hamiltonian describing the internal and external dy-
+namics of a pair of molecules trapped in wells of an optical
+lattice is denoted by $H = H_{in} + H_{ex}$. The interaction describing
+the internal degrees of freedom is $H_{in} = H_{dd} + \sum_{i=1}^2 H_{im}$. Here
+$H_{dd}$ is the dipole-dipole interaction given below in Eq. (3).
+The Hamiltonian describing the external, or motional, degrees
+of freedom is $H_{ex} = \sum_{i=1}^2 P_i^2/(2m) + V_i(\mathbf{x}_i - \mathbf{x}_i)$, where $P_i$ is
+the momentum of molecule $i$ with mass $m$, and the potential
+generated by the optical lattice $V_i(\mathbf{x} - \mathbf{x})$ describes an exter-
+nal confinement of molecule $i$ about a local minimum $\mathbf{x}_i$ with
+1D rms width $z_0$. We assume isotropic traps that are approx-
+imately harmonic near the trap minimum with a vibrational
+spacing $\hbar \omega_{\text{osc}}$. Furthermore, we assume that the molecules
+can be prepared in the motional ground state of each local
+potential using dissipative electromagnetic pumping [12]. It
+is convenient to define the quantization axis $\hat{z}$ along the axis
+connecting the two molecules, $\mathbf{x}_2 - \mathbf{x}_1 = \Delta z \hat{z}$ with $\Delta z$ corre-
+sponding to a multiple of the lattice spacing.
+
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > III. SPECTROSCOPY OF POLAR MOLECULES IN OPTICAL LATTICES > Dipole-Dipole Interaction Formula[/HEAD]
+The near field dipole-dipole interaction between two
+molecules separated by $\mathbf{r} = \mathbf{x}_1 - \mathbf{x}_2$ is
+$$H_{\text{dd}} = \frac{d^2}{r^3} \sum_{q=-1}^1 ((-1)^q D_{1,q}^* D_{2,-q} - 3D_{1,0}D_{2,0} + \text{h.c.}).$$ (3)
+The dipole operator coupling the ground and first rotational
+states of molecule $i$ is $\mathbf{D}_i = \sum_{q=-1}^1 |N=1,q\rangle_i \langle N=0,0|\hat{e}_q$,
+and $d$ is the dimensionful dipole moment.
+While the present situation of dipole-dipole coupling of ro-
+tationally excited polar molecules is reminiscent of the dipole-
+dipole interaction of between electronically excited atom pairs
+[13], there are important differences. First, unlike the atomic
+case where electronically excited states typically are anti-
+trapped by an optical lattice, here both ground and excited
+rotational states are trapped by an essentially identical po-
+tential. Hence motional decoherence due to spin dependent
+dipole-dipole forces is strongly suppressed by the large vibra-
+tional energy $\hbar \omega_{\text{osc}}$. Second, scattering rates are drastically
+reduced. The decay rate at room temperature from excited ro-
+tational states is $\sim 10^{-3}$ Hz [14] versus a comparable rate of
+MHz for excited electronic states.
+The ground subspace of each molecule is isomorphic to a
+spin 1/2 particle. Our goal is to obtain an effective spin-spin
+interaction between two neighboring molecules. Static spin-
+spin interactions due to spin-rotation and dipole-dipole cou-
+plings do exist but are very small in our model: $H_{\text{vdw}}(\mathbf{r}) =
+-(d^4/2Br^6) [1 + (\gamma/4B)^2 (1 + 4\mathbf{S}_1 \cdot \mathbf{S}_2/3 - 2S_{1z}S_{2z})]$. The first
+term is the familiar van der Waals $1/r^6$ interaction, while
+the spin dependent piece is strongly suppressed as $\gamma/4B \approx
+10^{-3} \ll 1$. Therefore, we propose dynamical mixing with
+dipole-dipole coupled excited states using a microwave field.

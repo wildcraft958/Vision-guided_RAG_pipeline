@@ -1,0 +1,536 @@
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > Abstract[/HEAD]
+There is growing interest to investigate states of matter with topological order, which support excitations in the
+form of anyons, and which underly topological quantum computing. Examples of such systems include lattice
+spin models in two dimensions. Here we show that relevant Hamiltonians can be systematically engineered
+with polar molecules stored in optical lattices, where the spin is represented by a single electron outside a closed
+shell of a heteronuclear molecule in its rotational ground state. Combining microwave excitation with the
+dipole-dipole interactions and spin-rotation couplings allows us to build a complete toolbox for effective two-
+spin interactions with designable range and spatial anisotropy, and with coupling strengths significantly larger
+than relevant decoherence rates. As an illustration we discuss two models: a 2D square lattice with an energy
+gap providing for protected quantum memory, and another on stacked triangular lattices leading to topological
+quantum computing.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > I. INTRODUCTION[/HEAD]
+Lattice spin models are ubiquitous in condensed matter
+physics where they are used as simplified models to describe
+the characteristic behavior of more complicated interacting
+physical systems. Recently there have been exciting theoret-
+ical discoveries of models with quasi-local spin interactions
+with emergent topological order [1, 2]. In contrast to Landau
+theory where various phases of matter are described by bro-
+ken symmetries, topological ordered states are distinguished
+by homology class and have the property of being robust to
+arbitrary perturbations of the underlying Hamiltonian. These
+states do not exhibit long range order in pairwise operators,
+rather they have long range order in highly nonlocal strings
+of operators. A real world example is the fractional quantum
+Hall effect which gives rise to states with the same symmetry
+but distinguishable by quantum numbers associated with the
+topology of the surface they live on [3].
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > I. INTRODUCTION[/HEAD]
+It is of significant interest to “design” materials with these
+properties, both to observe and study exotic phases, and in
+light of possible applications. Cold atomic and molecular
+gases in optical lattices are prime candidates for this endeavor
+in view of the complete controllability of these systems in
+the laboratory. The idea of realizing bosonic and fermionic
+Hubbard models, and thus also lattice spin models, with cold
+atoms in optical lattices has sparked a remarkable series of
+experiments, and has triggered numerous theoretical studies
+to develop cold atoms as a quantum simulator for strongly
+correlated condensed matter systems (see e.g. [4, 5, 6] and
+references therein). However, coaxing a physical system to
+mimic the required interactions for relevant lattice spin mod-
+els, which must be both anisotropic in space and in the spin de-
+grees of freedom, and given range, is highly nontrivial. Here
+we show that cold gases of polar molecules, as presently de-
+veloped in the laboratory [7], allow us to construct in a natural
+way a complete toolbox for any permutation symmetric two
+spin-1/2 (qubit) interaction. The attractiveness of this idea
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > I. INTRODUCTION[/HEAD]
+also rests on the fact that dipolar interactions have coupling
+strengths significantly larger than those of the atomic Hubbard
+models, and relevant decoherence rates.
+Our basic building block is a system of two polar molecules
+strongly trapped a given sites of an optical lattice, where the
+spin-1/2 (or qubit) is represented by a single electron out-
+side a closed shell of a heteronuclear molecule in its rotational
+ground state. Heteronuclear molecules have large permanent
+electric dipole moments. This implies that the rotational mo-
+tion of molecules is coupled strongly via the dipole-dipole in-
+teractions, whose signatures are the long range 1/r³ character
+and an angular dependence, where the polar molecules attract
+or repel each other depending on the relative orientation of
+their dipole moments. In addition, microwave excitation of
+rotational energy levels allows to effectively tailor the spatial
+dependence of dipole-dipole interactions. Finally, account-
+ing for the spin-rotation splitting of molecular rotational levels
+we can make these dipole-dipole interactions spin-dependent.
+General lattice spin models are readily built from these binary
+interactions.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > II. ANISOTROPIC SPIN MODELS WITH NOISE RESILIENT GROUND STATES[/HEAD]
+Two highly anisotropic models with spin-1/2 particles
+which we will show how to simulate are illustrated in Figs. la
+and 1b respectively. The first takes place on a square 2D lat-
+tice with nearest neighbor interactions
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > II. ANISOTROPIC SPIN MODELS WITH NOISE RESILIENT GROUND STATES[/HEAD]
+H(1)
+1-1l-1
+Hspin = (j+1 + cos(+1,j).
+i=1 j=1
+(1)
+Introduced by Duoçot et al. [8] in the context of Josephson
+junction arrays, this model (for ζ ≠ ±π/2) admits a 2- fold
+degenerate ground subspace that is immune to local noise up
+to lth order and hence is a good candidate for storing a pro-
+tected qubit.
+The second, occurs on a bipartite lattice constructed with
+two 2D triangular lattices, one shifted and stacked on top of
+the other. The interactions are indicated by nearest neighbor
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > II. ANISOTROPIC SPIN MODELS WITH NOISE RESILIENT GROUND STATES > Figure 1[/HEAD]
+FIG. 1: (Color online) Example anisotropic spin models that can be
+simulated with polar molecules trapped in optical lattices. (a) Square
+lattice in 2D with nearest neighbor orientation dependent Ising inter-
+actions along î and ŷ. Effective interactions between the spins S₁ and
+S₂ of the molecules in their rovibrational ground states are generated
+with a microwave field E(t) inducing dipole-dipole interactions be-
+tween the molecules with dipole moments D₁ and D₂, respectively.
+(b) Two staggered triangular lattices with nearest neighbors oriented
+along orthogonal triads. The interactions depend on the orientation
+of the links with respect to the electric field. (Dashed lines are in-
+cluded for perspective.)
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > II. ANISOTROPIC SPIN MODELS WITH NOISE RESILIENT GROUND STATES[/HEAD]
+links along the x, ŷ and 2 directions in real space:
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > II. ANISOTROPIC SPIN MODELS WITH NOISE RESILIENT GROUND STATES[/HEAD]
+H(II)
+spin = J1
+x-links
+J1 ∑+J₂ Σσσ. (2)
+y-links
+z-links
+This model has the same spin dependence and nearest neigh-
+bor graph as the model on a honeycomb lattice introduced by
+Kitaev [9]. He has shown that by tuning the ratio of interac-
+tion strengths |J₁|/|Jz| one can tune the system from a gapped
+phase carrying Abelian anyonic excitations to a gapless phase
+which in the presence of a magnetic field becomes gapped
+with non-Abelian excitations. In the regime |J₁|/|Jz| < 1 the
+Hamilonian can be mapped to a model with four body oper-
+ators on a square lattice with ground states that encode topo-
+logically protected quantum memory [10]. One proposal [11]
+describes how to use trapped atoms in spin dependent optical
+lattices to simulate the spin model H(II). There the induced
+spin couplings are obtained via spin dependent collisions in
+second order tunneling processes. Larger coupling strengths
+are desirable. In both spin models (I and II) above, the signs
+of the interactions are irrelevant although we will be able to
+tune the signs if needed.
+spin
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > III. SPECTROSCOPY OF POLAR MOLECULES IN OPTICAL LATTICES[/HEAD]
+Our system is comprised of heteronuclear molecules with
+2Σ+1/2 ground electronic states, corresponding for example to
+alkaline-earth monohalogenides with a single electron outside
+a closed shell. We adopt a model molecule where the ro-
+tational excitations are described by the Hamiltonian Ĥm =
+BN² + YN S with N the dimensionless orbital angular mo-
+mentum of the nuclei, and S the dimensionless electronic spin
+(assumed to be S = 1/2 in the following). Here B denotes
+the rotational constant and y is the spin-rotation coupling con-
+stant, where a typical B is a few tens of GHz, and y in the
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > III. SPECTROSCOPY OF POLAR MOLECULES IN OPTICAL LATTICES[/HEAD]
+hundred MHz regime. The coupled basis of a single molecule
+i corresponding to the eigenbasis of Him is {|Ni, Si,Ji; MJ;}}
+where Ji = Ni + Si with eigenvalues E(N = 0,1/2,1/2) =
+0,E(1,1/2,1/2) = 2B – γ, and E(1,1/2,3/2) = 2B + γ/2.
+While we ignore hyperfine interactions in the present work,
+our discussion below is readily extended to include hyperfine
+effects, which offer extensions to spin systems S > 1/2.
+The Hamiltonian describing the internal and external dy-
+namics of a pair of molecules trapped in wells of an optical
+lattice is denoted by H = Hin+Hex. The interaction describing
+the internal degrees of freedom is Hin = Hdd + Σ²=1 Him. Here
+Hdd is the dipole-dipole interaction given below in Eq. (3).
+The Hamiltonian describing the external, or motional, degrees
+of freedom is Hex = Σ²=1P}/(2m) + Vi(x; − xì), where P; is
+the momentum of molecule i with mass m, and the potential
+generated by the optical lattice V₁(x – x₁) describes an exter-
+nal confinement of molecule i about a local minimum x₁ with
+1D rms width zo. We assume isotropic traps that are approx-
+imately harmonic near the trap minimum with a vibrational
+spacing hoosc. Furthermore, we assume that the molecules
+can be prepared in the motional ground state of each local
+potential using dissipative electromagnetic pumping [12]. It
+is convenient to define the quantization axis ĉ along the axis
+connecting the two molecules, x2 – X₁ = Azź with Az corre-
+sponding to a multiple of the lattice spacing.
+The near field dipole-dipole interaction between two
+molecules separated by r = x1 - X2 is
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > III. SPECTROSCOPY OF POLAR MOLECULES IN OPTICAL LATTICES[/HEAD]
+Hdd =
+d2
+1
+Σ((-1)DD2-9-3D1,D20
+q=-1
+D20+h.c.). (3)
+The dipole operator coupling the ground and first rotational
+states of molecule i is D = ∑q=−1|N = 1,q)ii(N = 0,0|ê,
+and d is the dimensionful dipole moment.
+While the present situation of dipole-dipole coupling of ro-
+tationally excited polar molecules is reminiscent of the dipole-
+dipole interaction of between electronically excited atom pairs
+[13], there are important differences. First, unlike the atomic
+case where electronically excited states typically are anti-
+trapped by an optical lattice, here both ground and excited
+rotational states are trapped by an essentially identical po-
+tential. Hence motional decoherence due to spin dependent
+dipole-dipole forces is strongly suppressed by the large vibra-
+tional energy h Second, scattering rates are drastically
+reduced. The decay rate at room temperature from excited ro-
+tational states is ~ 10-3 Hz [14] versus a comparable rate of
+MHz for excited electronic states.
+OSC
+The ground subspace of each molecule is isomorphic to a
+spin 1/2 particle. Our goal is to obtain an effective spin-spin
+interaction between two neighboring molecules. Static spin-
+spin interactions due to spin-rotation and dipole-dipole cou-
+plings do exist but are very small in our model: Hvdw(r) =
+-(d²/2Br6) [1 + (y/4B)² (1 + 4S1-S2/3 – 255)]. The first
+term is the familiar van der Waals 1/r6 interaction, while
+the spin dependent piece is strongly suppressed as y/4B ≈
+10-3 <1. Therefore, we propose dynamical mixing with
+dipole-dipole coupled excited states using a microwave field.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS[/HEAD]
+In order to induce strong dipole-dipole coupling we intro-
+duce a microwave field E(x,t)ef with a frequency of tuned
+near resonance with the N = 0 → N = 1 transition. Be-
+cause the rotational states are spaced nonlinearly, this transi-
+tion is resolvable without coupling to higher rotational states
+by multiphoton processes. In the rotating wave approxima-
+tion, the molecule-field interaction is Hmf = − Σ=1(ΚΩΔ ·
+eFei(kF·xi-wFt)/2+h.c.), where the Rabi frequency is |Ω| =
+dEo/h. As the molecules are trapped by optical wavelengths
+such that kF∆z ~ 10–5 the dipoles are excited in phase only.
+The effective Hamiltonian acting on the ground states is ob-
+tained in second order perturbation theory as
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS[/HEAD]
+Heff(fr) = ΣΣ (8f/Hmf|2(r))((r)|Hmf|gi)
+if (r)
+Κως – Ε(λ(r))
+gf)(gi, (4)
+where {|gi), gf}} are ground states with N₁ = N2 = 0 and
+{|(r))} are excited eigenstates of Hin with N1 + N2 = 1 and
+with excitation energies {E(λ(r))}. The reduced interaction
+in the subspace of the spin degrees of freedom is then ob-
+tained by tracing over the motional degrees of freedom. For
+molecules trapped in the ground motional states of isotropic
+harmonic wells with rms width zo the wave function is separa-
+ble in center of mass and relative coordinates with the relative
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS > coordinate wavefunction[/HEAD]
+coordinate wavefunction
+Ψrel (r, 0) =
+1
+π3/4 (220) 3/2e (r²+Az²-2rAzcose)/8z
+,
+where cos = r.2/r. The effective spin-spin Hamiltonian is
+then Hspin = (Heff(r))rel.
+The Hamiltonian in Eq. (4) is guaranteed to yield some en-
+tangling interaction for appropriate choice of field parameters
+but it is desirable to have a systematic way to design a spin-
+spin interaction. Fortunately, the model presented here pos-
+sesses sufficient structure to achieve this essentially analyti-
+cally. The effective Hamiltonian on molecules 1 and 2 induced
+by a microwave field is
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS[/HEAD]
+Heff(r) =
+3
+ΠΩΣ Ααβ(r),
+8
+α,β=0
+(5)
+where {σα}α=0 = {1,σ*,σ,σ˜} and A is a real symmetric
+tensor. See App. A for an explicit form of the matrix coeffi-
+cients as a function of field polarization and frequency.
+Eq. (5) describes a generic permutation symmetric two
+qubit Hamiltonian. The components A0,5 describe a pseudo
+magnetic field which acts locally on each spin and the compo-
+nents As,t describe two qubit coupling. The pseudo magnetic
+field is zero if the microwave field is linearly polarized but
+a real magnetic field could be used to tune local interactions
+and, given a large enough gradient, could break the permuta-
+tion invariance of Hspin
+For a given field polarization, tuning the frequency near an
+excited state induces a particular spin pattern on the ground
+states. These patterns change as the frequency is tuned though
+multiple resonances at a fixed intermolecular separation. In
+Table I it is shown how to simulate the Ising and Heisen-
+berg interactions in this way. Using several fields that are
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS > TABLE I[/HEAD]
+TABLE I: Some spin patterns that result from Eq. (5). The field
+polarization is given with respect to the intermolecular axis 2 and
+the frequency WF is chosen to be near resonant with the indicated
+excited state potential at the internuclear separation Az. The sign of
+the interaction will depend on whether the frequency is tuned above
+or below resonance.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS > TABLE I > Polarization[/HEAD]
+| Polarization | Resonance | Spin pattern |
+| :----------- | :---------- | :----------- |
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS > TABLE I > x[/HEAD]
+| x | 2g | σ*σ* |
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS > TABLE I > 2[/HEAD]
+| 2 | 0+ | σσ + σσυ – σσυ |
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS > TABLE I > ŷ[/HEAD]
+| ŷ | 0g | σσ – σσ + σσυ |
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS > TABLE I > (+)/√2[/HEAD]
+| (+)/√2 | 1g | -σσ – σσυ + σσυ |
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS > TABLE I > cosξx + sinξŷ[/HEAD]
+| cosξx + sinξŷ | 1g | λ₁ (σ*σ* + σσυ) + λησσυ |
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS > TABLE I > cos ξŷ + sinξx[/HEAD]
+| cos ξŷ + sinξx | 1g | λ₁ (σ*σ* + σσυ) + λεσσυ |
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS[/HEAD]
+sufficiently separated in frequency, the resulting effective in-
+teractions are additive creating a spin texture on the ground
+states. The anisotropic spin model Hxyz = λχσσ* + λισ"σ" +
+λσσ² can be simulated using three fields: one polarized
+along 2 tuned to +(3/2), one polarized along ŷ tuned to
+0(3/2) and one polarized along ŷ tuned to 0+(1/2). The
+strengths ; can be tuned by adjusting the Rabi frequencies
+and detunings of the three fields. Using an external magnetic
+field and six microwave fields with, for example, frequencies
+and polarizations corresponding to the last six spin patterns in
+Table I, arbitrary permutation symmetric two qubit interaction
+are possible.
+The effective spin-spin interaction along a different
+intermolecular axis can be obtained by a frame
+transformation in the spherical basis. Writing
+D¹† (β1, β2, β3). (0,1,0), where Dj is the spin-j Wigner ro-
+tation, the effective Hamiltonian along in the original
+coordinate system is obtained by the following replace-
+ments to the field polarization vector and spin operators:
+(α-,α,α+) → D¹†(β1,β2,β3).(α-, α,α+)7 and σα →
+D1/2(β1,β2, β3)σαD1/2†(B1,B2,B3). For example, using a 2
+polarized field tuned near 0+ (3/2) and a field polarized in the
+x - ŷ plane tuned near 1u(3/2) creates a Heisenberg interac-
+tion between any two molecules separated by r with arbitrary
+orientation in space.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > V. APPLICATIONS[/HEAD]
+We now show how to engineer the spin model I. Consider a
+system of trapped molecules in a square lattice with site coor-
+dinates in the 2 − x plane {x₁₁j} = {ibŝ+ jbx; i, j ∈ [1,l]∩Z}.
+Illuminate the system with a microwave field with linear po-
+larization ef = cos ζŷ + sinx and field frequency WF tuned
+such that the peak of the relative coordinate wavefunction at
+r = b is near resonant with the 2g potential but far detuned
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > IV. ENGINEERING SPIN-SPIN INTERACTIONS[/HEAD]
+from other excited states. Then the dominate interaction be-
+tween nearest neighbor molecules is of Ising type along each
+axis and we realize H) with J = (||)2(1/8(hωF – 2B
+γ/2 – d²/r³))rel. For realistic parameters, this coupling can
+range from 10 – 100 kHz, with the strength constrained by
+the trap spacing (J≪hwosc). The relative strength of the in-
+teractions along 2 and x can be changed by rotating the angle
+ζ of polarization out of plane. Interactions between more dis-
+tant neighbors are relatively weak because the far off resonant
+coupling at larger r cannot distinguish the spin dependence of
+excited states.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > V. APPLICATIONS > Figure 3[/HEAD]
+FIG. 3: (Color online) Design and verification of noise protected
+ground states arising from a simulation of Hon. The system is com-
+prised of 9 polar molecules trapped in a 3 × 3-square-lattice in the
+2-x plane with lattice spacing b = ry/√2 driven with a field of fre-
+quency OF and out of plane polarization angle ζ. (a) Noise resilience
+of the ground states of the resultant interaction Hspin as a function
+of field frequency, quantified by the rms-magnetisations of the two
+ground-states, 82S = 82S* (solid-lines) and 82S (dashed lines) for
+ζ = 0. The inset shows the protected region, when tuning near to
+the 2g resonance E(2g) ≈ 1.9y which realizes the model Hspin HD (b)
+Absorption-spectroscopy of ground states χα(@probe) for two spin-
+textures obtained by tuning of near the 2g resonance, δ/γ = 1.88,
+with b = ry/√2. For ζ = 0 the spectrum is gapped by J/2, which
+is a signature of a protected qubit (top), while for ζ = π/2 the ex-
+citations are gap-less spin-waves (bottom). The peak at @probe = 0
+is of order unity. The spectroscopic coupling component a = x,y,z
+(solid, dashed, dotted lines) are indicated.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > V. APPLICATIONS[/HEAD]
+The authors of Ref. [8] show that the ideal spin model
+I (for ζ≠ ±π/2) has a 2-fold degenerate ground subspace,
+which is gapped with weak size dependence for cosζ = 1.
+The the two ground-states, which we denote, |0) and 1)L,
+have zero local magnetizations (6)L. Our implementation is
+not ideal because there are residual longer range interactions
+along several directions in the plane as well as off resonant
+couplings to excited state potentials yielding unwanted spin
+patterns. We note, however, that all the effective spin Hamil-
+tonians described in Eq. (5) obtained using fields with linear
+polarization involve sums of products of Pauli operators and
+hence are invariant under time-reversal. For l odd, the degen-
+eracy present in the ground state of HD is of Kramers' type
+and imperfect implementation will not break this degeneracy
+though it may decrease the energy gap.
+spin
+We have numerically computed the effective interaction on
+a l² = 3 × 3 square lattice with spacings b = ry/√2 and we
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > V. APPLICATIONS[/HEAD]
+take the localization to the point dipole limit. In Fig. 3(a) we
+plot the a = x,y,z-components of the rms magnetization for
+the ground subspace, 82S = Eij EGG|L<G'|σ;|GL|2/2ℓ2,
+as a function of the detuning oF – 2B/h for polarization an-
+gle ζ = 0. This allows for computing logical qubit errors
+due to quasi-static noise. Near the bare resonance hor
+2B = y/2 the system show multiple long-range resonances
+as all the sites couple near-resonantly at coupling strength
+1/b³. The last of these long-range resonance appears at
+hwF – 2B ~ 1.36y for the interaction between next nearest
+neighbor sites with spacings of √2b. The 2g-resonance lies
+at hof - 2B ≈ 1.9y for nearest neighbor sites and shows the
+remarkable feature of no magnetization on any site in any
+space-direction a withing the ground-state manifold (see in-
+set). The resulting immunity of the system to local noise can
+be probed by applying an homogeneous B-field of frequency
+@probe polarized in the direction a = x,y,z. The correspond-
+ing absorption spectrum for an arbitrary code state L is,
+χα(@probe) = -hΓΙ[1〈Y|S∝(h@probe – Hspin + ihΓ)¯¹S|ψ>L]
+where S = ∑ij σ₁/l2 and Γ is an effective linewidth. This
+quantity is plotted in Fig. 3(b) for two different spin-textures
+obtained for the same field frequency WF = 1.88y but different
+polarizations and were we set Γ = 0.1J. For polarization ( = 0
+(see top inset) one realizes the protected qubit, whose spec-
+trum is gapped by J/2. For polarization along the x-direction
+ζ = π/2 (see bottom inset) the ground-subspace is given by a
+set of l quantum-Ising stripes along z, whose spectrum is un-
+gapped with a large peak at @probe = 0 in response to coupling
+with a B field polarized along a = x.
+spin
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > V. APPLICATIONS[/HEAD]
+Spin model II is likewise obtained using this mechanism.
+Consider a system of four molecules connected by three
+length b edges forming an orthogonal triad in space. There
+are several different microwave field configurations that can
+be used to realize the interaction HⅢ) along the links. One
+choice is to use two microwave fields polarized along 2,
+one tuned near resonance with a 1g potential and one near
+a lu potential. When the detunings and Rabi frequencies
+are chosen so that 〈|1g|C(1g,3,3) – |№1₄|C(1u,1,1)〉rel =
+0 then the resultant spin pattern is Eq. (2) with J₁ =
+-<|21|C(18,3,3))rel/4 and J₁ = |<|Ω1g|C(1g,2,2)〉rel/4.
+The ratio J₁|/|Jz| can be tuned either by changing the lat-
+tice spacing or by using a third microwave field polarized
+along 2 and tuned near the 2g potential, in which case J₁ →
+J₁+<|22|C(2g))rel/8. A bipartite lattice composed of such
+triads with equally spaced nearest neighbors can be built using
+two planes of stacked triangular lattices. Such a lattice could
+be designed using bichromatic trapping lasers in two spatial
+dimensions and a suitably modulated lattice in the third di-
+mension normal to both planes. A realization of model II us-
+ing a different set of 3 microwave fields is shown in Fig. 4.
+The obtained interaction is close to ideal with small residual
+coupling to next nearest neighbors as in model I.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > V. APPLICATIONS > Figure 4[/HEAD]
+FIG. 4: (Color online) Implementation of spin model H. Shown
+is the spatial configuration of 12 polar molecules trapped by two
+parallel triangular lattices (indicated by shaded planes) with sepa-
+ration normal to the plane of Az/√3 and in plane relative lattice shift
+of Az√2/3. Nearest neighbors are separated by b = Az and next
+nearest neighbor couplings are at √2b. The graph vertices repre-
+sent spins and the edges correspond to pairwise spin couplings. The
+edge color indicates the nature of the dominant pairwise coupling for
+that edge (blue= σσ², red= σ"σ", green= σστ, black="other").
+For nearest neighbor couplings, the edge width indicates the relative
+strength of the absolute value of the coupling. For this implemen-
+tation, the nearest neighbor separation is b = ry. Three fields all
+polarized along 2 were used to generate the effective spin-spin in-
+teraction with frequencies and intensities optimized to approximate
+the ideal model H(II)
+Hspin. The field detunings at the nearest neighbor
+spacing are: ħw₁ – E(1g(1/2)) = −0.05γ/2,ħw2 – E(0- (1/2)) =
+0.05γ/2, Κως – Ε (2g(3/2)) = 0.10γ/2 and the amplitudes are |21| =
+4|22| = |23| = 0.01y/h. For y = 40MHz this generates effective
+coupling strengths J₂ = -100kHz and J₁ = -0.4Jz. The magni-
+tude of residual nearest neighbor couplings are less than 0.04|Jz|
+along x and y-links and less than 0.003|J| along z-links. The size of
+longer range couplings Jr are indicated by edge line style (dashed:
+Jir < 0.01|Jz, dotted: |Jir| < 10-3|Jz). Treating pairs of spins
+on z-links as a single effective spin in the low energy sector, the
+model approximates Kitaev's 4-local Hamiltonian [10] on a square
+grid (shown here are one palquette on the square lattice and a neigh-
+bor plaquette on the dual lattice) with an effective coupling strength
+Jeff = -(J1/J2)4|Jz|/16 ≈ 167Hz.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > VI. CONCLUSIONS[/HEAD]
+We have shown how to engineer pairwise spin-1/2 (or qubit)
+interactions between polar molecules with designable range
+and spatial anisotropy. The couplings are strong relative to
+decoherence rates, and the simulation does not require com-
+plicated control sequences to build effective time averaged
+Hamiltonians, spin-dependent lattices or local addressability.
+Thus polar molecules in optical lattices are a good candidate
+to provide a laboratory realization of exotic states of matter.
+We envision that engineering of these new materials might
+eventually provide the basis of a new type of quantum op-
+tics, where systematic tools are developed which allow the
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > VII. ACKNOWLEDGEMENTS[/HEAD]
+A. M. thanks W. Ernst, and P.Z. thanks T. Calarco, L. Faoro,
+M. Lukin, D. Petrov for helpful discussions. This work was
+supported by the Austrian Science Foundation, the European
+Union, and the Institute for Quantum Information.
+[CONTINUES]False[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > APPENDIX A: EFFECTIVE INTERACTIONS[/HEAD]
+The effective spin-spin interaction Eq. (5) between polar
+molecules depends both on the frequency OF and polarization
+ef = a-ê−1 + aoêo+a+ê1, (êo = 2) of the field. The explicit
+form for the coupling coefficients is:
+[CONTINUES]True[/CONTINUES]
+[HEAD]A toolbox for lattice spin models with polar molecules > APPENDIX A: EFFECTIVE INTERACTIONS[/HEAD]
+A1,1 = |ao|2[C(0,1,2) −C(0,1,2)]
+-
++(|α-12+ |α+12) [C(18,3,3) – C(1,1,1)]
++R[αα-][C(0,2,1) – C(0,2,1)],
+-
+A2,2 = A1,1 −2R[aa-][C(0,2,1) – C(0,2,1)],
+A3,3 = |ao|2[2C(18,2,2) – C(0,1,2) – C(0,1,2)]
++(|α+12+|α-12) [C(2g) + C(0,2,1)/2
++C(0,2,1)/2 – C(1, 1, 1) – C(18,3,3)],
+A1,2 = I[αα-](C(0,2,1) – C(0+,2,1)),
+A1,3 = R[αα – αΐα-]C(1g,2,3),
+-
+A2,3 = I[α¥¤‰ – αΐα-]C(1,2,3),
+A0,1 = R[ααο +αΐα-]C(1g,2,3),
+A0,2 = I[ααο + αΐα-]C(1g,2,3),
+Α0,3 = (|α+12 – α_|²)[C(2g) - C(0+,2,1)/2
+-C(0,2,1)/2].
+The component A0,0 weights a scalar energy shift which we
+ignore. The coefficients C(|Y|≡) quantify coupling to excited
+states with different symmetries and are given by
+[CONTINUES]True[/CONTINUES]
+[HEAD

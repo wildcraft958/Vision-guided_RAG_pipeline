@@ -1,0 +1,81 @@
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Mid-Semester Examination Details > Examination Information[/HEAD]
+Department of Electrical Engineering
+
+Mid-Semester examination (Spring, 2016-2017)
+No. of students: 96 (EE, EEDD, IE)
+Date:
+Instruction: Answer all questions
+Total marks: 30
+Total time: 2 hours
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q1: Signal Approximation > Q1(a) Derivation of Optimum Approximation Coefficient[/HEAD]
+Q1. (a) Consider the problem of approximating a real signal g(t) in terms of another real
+signal x(t) over an interval \([t_1, t_2]\):
+\[g(t) = cx(t) \quad t_1 \le t \le t_2\]
+Derive the expression for the optimum value of c for best approximation of g(t) with x(t).
+(3 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q1: Signal Approximation > Q1(b) Approximation of Square Signal with Sinusoid[/HEAD]
+(b) For the square signal g(t) shown in the Figure below, approximate g(t) in terms of
+sin(t) so that the energy of the error signal is the minimum.
+8(1)
+(3 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q2: Fourier Transforms > Q2(a) Fourier Transform of Sign Function[/HEAD]
+Q2. (a) Obtain the Fourier transform of the sign function, \(\text{sgn}(t) = \begin{cases} 1 & t>0 \\ -1 & t<0 \end{cases}\). Justify the
+use of the approximation you make.
+(3 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q2: Fourier Transforms > Q2(b) Fourier Transform of Exponential Function[/HEAD]
+(b) Plot the function \(e^{-a(|t-t_0|)}\) with respect to time. Obtain the Fourier transform of this
+function and plot its magnitude and phase spectra.
+(3 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q3: Signal Bandwidth and Autocorrelation > Q3(a) Essential Bandwidth Estimation[/HEAD]
+Q3. (a) Estimate essential bandwidth W in rad/s of the signal \(e^{-at}u(t)\) if the essential band is
+required to contain 95% of the signal energy.
+(3 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q3: Signal Bandwidth and Autocorrelation > Q3(b) Autocorrelation of Random Binary Pulse Train[/HEAD]
+(b) The figure above shows a random binary pulse train g(t). The pulse width is \(T_b/2\) and
+one binary digit is transmitted every \(T_b\) seconds. A binary 1 is transmitted by the positive pulse
+and a binary 0 is transmitted by the negative pulse. The two symbols are equally likely and
+occur randomly. Determine the auto-correlation function. (Assume that N pulses occur in the
+averaging interval T.)
+(4 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q4: Distortionless Signal Transmission > Q4(a) Requisite for Linear Phase Response[/HEAD]
+Q4. (a) Why is linear phase response a requisite for distortionless signal transmission?
+(3 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q4: Distortionless Signal Transmission > Q4(b) All-Pass Systems as Distortionless Systems[/HEAD]
+(b) Can all-pass systems be considered to be really distortionless? Justify you answer
+mathematically.
+(2 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q5: Amplitude Modulation Schemes > Q5(a) DSB-SC Modulated Spectrum[/HEAD]
+Q5. (a) For the case of tone modulation with a carrier using DSB-SC scheme obtain the
+modulated spectrum and also sketch it. What is the meaning of the term “suppressed carrier" in
+this context?
+(2 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q5: Amplitude Modulation Schemes > Q5(b) AM Wave Power Efficiency[/HEAD]
+(b) Determine the power efficiency, \(\eta\), for an AM wave for tone modulation when \(\mu = 0.5\).
+What is the maximum value of \(\eta\) possible and what is that corresponding value of \(\mu\)?
+(2 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Q6: Single Sideband (SSB) Signal > Q6 Derivation of General SSB Signal[/HEAD]
+Q6. Derive the expression for the general SSB signal \(\phi_{SSB}(t)\) using Hilbert transform.
+(2 marks)

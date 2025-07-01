@@ -1,0 +1,77 @@
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Department of Electrical Engineering > Mid-Semester Examination Details[/HEAD]
+Data Communication (IE30006)
+Department of Electrical Engineering
+Mid-Semester examination (Spring, 2016-2017)
+No. of students: 96 (EE, EEDD, IE)
+Date:
+Instruction: Answer all questions
+Total marks: 30
+Total time: 2 hours
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Mid-Semester examination (Spring, 2016-2017) > Q1. Signal Approximation[/HEAD]
+Q1. (a) Consider the problem of approximating a real signal g(t) in terms of another real
+signal x(t) over an interval [t1, t2]:
+g(t) = cx(t)
+t1 ≤ t ≤t2
+Derive the expression for the optimum value of c for best approximation of g(t) with x(t).
+(3 marks)
+(b) For the square signal g(t) shown in the Figure below, approximate g(t) in terms of
+sin(t) so that the energy of the error signal is the minimum.
+
+The image shows a graph titled "g(t)" depicting a square wave. The x-axis ranges from approximately -4π to 4π, marked with -4π, -3π, -2π, -π, 0, π, 2π, 3π, 4π. The y-axis is marked with -1 and 1. The square wave alternates between 1 and -1, with a period of 2π. Specifically, it is 1 for intervals like (0, π), (2π, 3π), (-2π, -π), and -1 for intervals like (π, 2π), (3π, 4π), (-π, 0), (-3π, -2π). Overlaid on this is a dashed sinusoidal wave, labeled "sin(t)", which appears to be a sine wave with amplitude 1.
+
+(3 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Mid-Semester examination (Spring, 2016-2017) > Q2. Fourier Transform Applications[/HEAD]
+Q2. (a) Obtain the Fourier transform of the sign function, sgn(t) =
+1
+{-
+t>0
+-1 t<0
+use of the approximation you make.
+Justify the
+(3 marks)
+(b) Plot the function e-a(|t-tol) with respect to time. Obtain the Fourier transform of this
+function and plot its magnitude and phase spectra.
+(3 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Mid-Semester examination (Spring, 2016-2017) > Q3. Bandwidth and Random Signals[/HEAD]
+Q3. (a) Estimate essential bandwidth W in rad/s of the signal e-atu(t) if the essential band is
+required to contain 95% of the signal energy.
+(3 marks)
+
+The image shows a random binary pulse train labeled "g(t)". The x-axis represents time, and the y-axis represents amplitude. The pulse width is denoted as Tb/2. The signal consists of rectangular pulses, some positive (amplitude 1) and some negative (amplitude -1). Each pulse has a duration of Tb/2, and there is a time interval of Tb between the start of consecutive pulses. For instance, a positive pulse is shown from 0 to Tb/2, followed by a negative pulse from Tb to Tb + Tb/2, then another positive pulse from 2Tb to 2Tb + Tb/2, and so on.
+
+(b) The figure above shows a random binary pulse train g(t). The pulse width is T/2 and
+one binary digit is transmitted every T seconds. A binary 1 is transmitted by the positive pulse
+and a binary 0 is transmitted by the negative pulse. The two symbols are equally likely and
+occur randomly. Determine the auto-correlation function. (Assume that N pulses occur in the
+averaging interval T.)
+(4 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Mid-Semester examination (Spring, 2016-2017) > Q4. Distortionless Signal Transmission[/HEAD]
+Q4. (a) Why is linear phase response a requisite for distortionless signal transmission?
+(3 marks)
+(b) Can all-pass systems be considered to be really distortionless? Justify you answer
+mathematically.
+(2 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Mid-Semester examination (Spring, 2016-2017) > Q5. AM Modulation Analysis[/HEAD]
+Q5. (a) For the case of tone modulation with a carrier using DSB-SC scheme obtain the
+modulated spectrum and also sketch it. What is the meaning of the term “suppressed carrier" in
+this context?
+(2 marks)
+(b) Determine the power efficiency, η, for an AM wave for tone modulation when μ 0.5.
+What is the maximum value of η possible and what is that corresponding value of μ?
+(2 marks)
+
+[CONTINUES]False[/CONTINUES]
+[HEAD]Data Communication (IE30006) > Mid-Semester examination (Spring, 2016-2017) > Q6. SSB Signal Derivation[/HEAD]
+Q6. Derive the expression for the general SSB signal Øsse(t) using Hilbert transform.
+(2 marks)
