@@ -1,5 +1,5 @@
-#Vision-guided RAG pipeline | Self Project | LlamaParse, LangChain                                         
- ##(Overview: Engineered a Vision-Guided RAG pipeline, improving document chunking with an 11% accuracy boost over vanilla RAG)
+# Vision-guided RAG pipeline | Self Project | LlamaParse, LangChain                                         
+ ## (Overview: Engineered a Vision-Guided RAG pipeline, improving document chunking with an 11% accuracy boost over vanilla RAG)
 
 • Developed a multimodal data processing pipeline using LlamaParse and LangChain, producing 5x more granular chunks for precise information retrieval.
 
